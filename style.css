@@ -1,3 +1,10 @@
-h1 {
+#title {
   color: blue;
+}
+
+#color-palette {
+  border: 1px solid black;
+  width: 100px;
+  height: 100px;
+  display: inline-block;
 }
