@@ -6,3 +6,13 @@ const paleta3 = document.querySelectorAll('div.color')[2];
 paleta3.style.backgroundColor = '#FF00FF';
 const paleta4 = document.querySelectorAll('div.color')[3];
 paleta4.style.backgroundColor = 'green';
+
+const pixelBoard = document.getElementById('pixel-board');
+function GradeDePixels() {
+  for (let i = 1; i < 25; i += 1) {
+    const pixel = document.createElement('div');
+    pixel.className = 'pixel';
+    pixelBoard.appendChild(pixel);
+  }
+}
+GradeDePixels();
