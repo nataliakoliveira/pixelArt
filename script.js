@@ -17,4 +17,4 @@ function GradeDePixels() {
 }
 GradeDePixels();
 
-window.onload = document.createElement('class')
+window.onload = document.createElement('selected');
