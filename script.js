@@ -16,3 +16,5 @@ function GradeDePixels() {
   }
 }
 GradeDePixels();
+
+window.onload = document.createElement('class')
