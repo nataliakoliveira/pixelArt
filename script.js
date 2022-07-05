@@ -16,7 +16,7 @@ function GradeDePixels() {
   }
 }
 GradeDePixels();
-
+// selecionar cor e aplicar nos pixels
 document.addEventListener('click', (event) => {
   const corSelecionada = document.querySelector('.selected');
   const select = event.target;
@@ -33,7 +33,7 @@ document.addEventListener('click', (event) => {
   }
 });
 // trocar cor do plano de fundo
-const btn = document.querySelector('button');
+const btn = document.querySelector('#button2');
 function random(number) {
   return Math.floor(Math.random() * (number + 1));
 }
@@ -42,3 +42,15 @@ btn.onclick = function () {
   const rndCol = `rgb(${random(255)},${random(255)},${random(255)})`;
   document.body.style.backgroundColor = rndCol;
 };
+
+// limpar
+const pixelArt = document.getElementsByClassName('pixel');
+function limpar() {
+  for (let index = 0; index < pixelArt.length; index += 1) {
+    pixelArt[index].style.backgroundColor = 'white';
+  }
+}
+const button = document.getElementById('clear-board');
+button.addEventListener('click', limpar);
+
+limpar();

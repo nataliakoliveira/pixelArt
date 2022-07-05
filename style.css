@@ -16,7 +16,7 @@
 }
 
 #pixel-board {
-  margin-top: 80px;
+  margin-top: 30px;
   margin-left: 600px;
   margin-right: 490px;
   border: 1px solid black;
@@ -31,7 +31,14 @@
   float: left;
 }
 
-#button {
+#clear-board {
+  background-color: white;
+  margin-top: 30px;
+  margin-left: 680px;
+}
+
+#button2 {
   margin-top: 250px;
   margin-left: -150px;
+
 }
