@@ -3,24 +3,25 @@
   text-align: center;
   margin: 20px;
   padding: 10px;
-  color: blueviolet;
+  color: black;
 }
 
-div.color {
+.color {
   border: 1px solid black;
   width: 100px;
   height: 100px;
   display: inline-block;
-  margin-left: 640px;
-  margin-right: -640px;
+  margin-left: 500px;
+  margin-right: -500px;
 }
 
 #pixel-board {
   margin-top: 80px;
-  margin-left: 400px;
-  margin-right: 690px;
+  margin-left: 600px;
+  margin-right: 490px;
   border: 1px solid black;
 }
+
 .pixel {
   margin: 1px;
   width: 40px;
@@ -28,4 +29,9 @@ div.color {
   background-color: white;
   border: 1px solid black;
   float: left;
+}
+
+#button {
+  margin-top: 250px;
+  margin-left: -150px;
 }
